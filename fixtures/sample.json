@@ -1,0 +1,27 @@
+{
+  "records": [
+    {
+      "record_id": "example-record",
+      "title": "A study of feedback",
+      "doi": "10.1234/example",
+      "fields": {
+        "title": "A study of feedback",
+        "doi": "10.1234/example",
+        "year": "2024"
+      },
+      "source_records": [
+        {
+          "source_file": "sample.csv",
+          "source_format": "csv",
+          "source_text": "{\"title\":\"A study of feedback\",\"doi\":\"10.1234/example\",\"year\":\"2024\"}",
+          "fields": {
+            "title": "A study of feedback",
+            "doi": "10.1234/example",
+            "year": "2024"
+          }
+        }
+      ]
+    }
+  ],
+  "votes": []
+}

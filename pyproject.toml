@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "systematic-review-screening-ledger"
+version = "0.1.0"
+description = "Preserve imported citations and independent screening votes."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Academic Research Tools contributors"}]
+
+[project.scripts]
+systematic-review-screening-ledger = "systematic_review_screening_ledger.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
